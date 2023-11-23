@@ -11,6 +11,6 @@ package com.mycompany.javayendry;
 public class JavaYendry {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello Worldasdasad!");
     }
 }
