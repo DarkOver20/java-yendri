@@ -27,7 +27,7 @@ DELIMITER $$
 --
 -- Procedimientos
 --
-CREATE DEFINER=`root`@`localhost` PROCEDURE `juego_cerrado` ()   INSERT INTO eventos (id_juegos, evento, fecha)
+CREATE PROCEDURE `juego_cerrado` ()   INSERT INTO eventos (id_juegos, evento, fecha)
   VALUES (NULL, 'Programa cerrado', CURRENT_TIMESTAMP)$$
 
 DELIMITER ;
