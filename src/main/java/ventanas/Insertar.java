@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Anibal
+ * @author Yendry
  */
 public class Insertar extends javax.swing.JFrame {
 

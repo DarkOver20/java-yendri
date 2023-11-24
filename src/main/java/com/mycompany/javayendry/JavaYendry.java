@@ -8,7 +8,7 @@ import ventanas.*;
 
 /**
  *
- * @author Anibal
+ * @author Yendry
  */
 public class JavaYendry {
 

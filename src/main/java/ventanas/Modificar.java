@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Anibal
+ * @author Yendry
  */
 public class Modificar extends javax.swing.JFrame {
 

@@ -13,7 +13,7 @@ import funciones.Validaciones;
 
 /**
  *
- * @author Anibal
+ * @author Yendry
  */
 public class Inicio extends javax.swing.JFrame {
 
