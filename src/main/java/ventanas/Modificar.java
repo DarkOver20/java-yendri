@@ -105,7 +105,7 @@ public class Modificar extends javax.swing.JFrame {
         textArea1.setBackground(new java.awt.Color(220, 235, 250));
         getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 550, 110));
 
-        jLabel6.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(51, 51, 255));
         jLabel6.setText("Panda Games");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));

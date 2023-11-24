@@ -90,7 +90,8 @@ public class Insertar extends javax.swing.JFrame {
         textField4.setBackground(new java.awt.Color(220, 235, 250));
         getContentPane().add(textField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, 470, -1));
 
-        jButton1.setBackground(new java.awt.Color(76, 23, 224));
+        jButton1.setBackground(new java.awt.Color(0, 0, 255));
+        jButton1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Insertar juego");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +99,7 @@ public class Insertar extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, -1, -1));
 
         textArea1.setBackground(new java.awt.Color(220, 235, 250));
         textArea1.setColumns(10);
@@ -106,10 +107,10 @@ public class Insertar extends javax.swing.JFrame {
         textArea1.setRows(10);
         getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 550, 110));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 51, 255));
         jLabel6.setText("Panda Games");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 120, 20));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 140, 20));
 
         jButton2.setBackground(new java.awt.Color(0, 0, 255));
         jButton2.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
@@ -120,7 +121,7 @@ public class Insertar extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 270, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
