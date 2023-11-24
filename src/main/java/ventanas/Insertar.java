@@ -21,6 +21,7 @@ public class Insertar extends javax.swing.JFrame {
      */
     public Insertar() {
         initComponents();
+
     }
 
     /**
@@ -32,6 +33,7 @@ public class Insertar extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        panel1 = new java.awt.Panel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -42,6 +44,7 @@ public class Insertar extends javax.swing.JFrame {
         textField4 = new java.awt.TextField();
         jButton1 = new javax.swing.JButton();
         textArea1 = new java.awt.TextArea();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -51,39 +54,61 @@ public class Insertar extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("     Titulo");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 51, 120, 20));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 120, 20));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("     Descripcion");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 156, 87, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 156, 120, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setText("     Año de lanzamiento");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 88, 136, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 160, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setText("     Plataforma(s)");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 122, 115, -1));
 
-        jLabel5.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
         jLabel5.setText("Insertar");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, -1, -1));
 
+        textField1.setBackground(new java.awt.Color(220, 235, 250));
+        textField1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         textField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(textField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 51, 250, -1));
-        getContentPane().add(textField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 84, 250, -1));
-        getContentPane().add(textField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 118, 250, -1));
+        getContentPane().add(textField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, 470, -1));
 
+        textField3.setBackground(new java.awt.Color(220, 235, 250));
+        getContentPane().add(textField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 80, 470, 20));
+
+        textField4.setBackground(new java.awt.Color(220, 235, 250));
+        getContentPane().add(textField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 120, 470, -1));
+
+        jButton1.setBackground(new java.awt.Color(76, 23, 224));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Insertar juego");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, -1, -1));
-        getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 250, 110));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, -1, -1));
+
+        textArea1.setBackground(new java.awt.Color(220, 235, 250));
+        textArea1.setColumns(10);
+        textArea1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textArea1.setRows(10);
+        getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 550, 110));
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 51, 255));
+        jLabel6.setText("Panda Games");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 120, 20));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -119,6 +144,7 @@ public class Insertar extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         try {
             String sql = "CALL juego_cerrado();";
@@ -170,6 +196,8 @@ public class Insertar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private java.awt.Panel panel1;
     private java.awt.TextArea textArea1;
     private java.awt.TextField textField1;
     private java.awt.TextField textField3;

@@ -42,6 +42,8 @@ public class Juego extends javax.swing.JFrame {
         textField4 = new java.awt.TextField();
         textArea1 = new java.awt.TextArea();
         jButton1 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -54,42 +56,64 @@ public class Juego extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setBackground(new java.awt.Color(51, 51, 255));
+        jLabel1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 0, 51));
         jLabel1.setText("     Titulo");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 51, 120, 20));
 
+        jLabel2.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
         jLabel2.setText("     Descripcion");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 156, 87, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 156, 120, -1));
 
+        jLabel3.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
         jLabel3.setText("     Año de lanzamiento");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 88, 136, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 88, 170, -1));
 
+        jLabel4.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
         jLabel4.setText("     Plataforma(s)");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 122, 115, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 122, 120, -1));
 
+        textField1.setBackground(new java.awt.Color(220, 235, 250));
         textField1.setEditable(false);
         textField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(textField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 51, 250, -1));
+        getContentPane().add(textField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 480, -1));
 
+        textField3.setBackground(new java.awt.Color(220, 235, 250));
         textField3.setEditable(false);
-        getContentPane().add(textField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 84, 250, -1));
+        getContentPane().add(textField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 480, -1));
 
+        textField4.setBackground(new java.awt.Color(220, 235, 250));
         textField4.setEditable(false);
-        getContentPane().add(textField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 118, 250, -1));
+        getContentPane().add(textField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 480, -1));
 
+        textArea1.setBackground(new java.awt.Color(220, 235, 250));
         textArea1.setEditable(false);
-        getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 250, 110));
+        getContentPane().add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, 550, 110));
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 255));
+        jButton1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Inicio");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 290, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 280, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel5.setText("Panda Games");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("sansserif", 1, 16)); // NOI18N
+        jLabel6.setText("Datos del juego");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 10, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -172,6 +196,8 @@ public class Juego extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private java.awt.TextArea textArea1;
     private java.awt.TextField textField1;
     private java.awt.TextField textField3;
