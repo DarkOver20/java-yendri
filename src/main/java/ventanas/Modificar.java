@@ -47,6 +47,7 @@ public class Modificar extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         textArea1 = new java.awt.TextArea();
         jLabel6 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -109,6 +110,17 @@ public class Modificar extends javax.swing.JFrame {
         jLabel6.setText("Panda Games");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 255));
+        jButton2.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setText("Inicio");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -151,6 +163,11 @@ public class Modificar extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, error.getMessage());
         }
     }//GEN-LAST:event_formWindowClosing
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        new Inicio().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
     
     private void initComponents2(int id_juego) {
         try {
@@ -204,6 +221,7 @@ public class Modificar extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
